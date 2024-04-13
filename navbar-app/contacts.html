@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rinward</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+          <img src="./logo.svg" class="logo" alt="logo" />
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- links -->
+        <ul class="links">
+          <li>
+            <a href="/">home</a>
+          </li>
+          <li>
+            <a href="about.html">about</a>
+          </li>
+          <li>
+            <a href="services.html">services</a>
+          </li>
+          <li>
+            <a style="color: rgb(34, 98, 248);" href="contacts.html">contact</a>
+          </li>
+        </ul>
+        <!-- social media -->
+        <ul class="social-icons">
+            <li>
+              <a href="https://www.facebook.com">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+          </ul>
+      </div>
+    </nav>
+    <!-- <h1 style="text-align: center; margin-top: 100px;">Contact Us</h1> -->
+    <!-- javascript -->
+    <!-- <div style="font-family: Arial, sans-serif; margin: 0; padding: 0;"> -->
+
+      <header style="background-color: #333; color: #fff; padding: 20px; text-align: center;">
+        <h1 style="margin: 0;">Contact Us</h1>
+      </header>
+      
+      <main>
+        <div class="contact-form" style="max-width: 600px; margin: 0 auto;">
+          <form action="#" method="post">
+            <div class="form-group" style="margin-bottom: 20px;">
+              <label for="name" style="display: block; margin-bottom: 5px; font-weight: bold;">Name:</label>
+                <input type="text" id="name" name="name" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                </div>
+                  <div class="form-group" style="margin-bottom: 20px;">
+                    <label for="email" style="display: block; margin-bottom: 5px; font-weight: bold;">Email:</label>
+                    <input type="email" id="email" name="email" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                </div>
+                <div class="form-group" style="margin-bottom: 20px;">
+                  <label for="message" style="display: block; margin-bottom: 5px; font-weight: bold;">Message:</label>
+                  <textarea id="message" name="message" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; height: 150px;"></textarea>
+                </div>
+                <div class="form-group" style="margin-bottom: 20px;">
+                  <button type="submit" style="padding: 10px 20px; background-color: #333; color: #fff; border: none; border-radius: 5px; cursor: pointer;">Send Message</button>
+                </div>
+              </form>
+          </div>
+      </main>
+      
+      <footer style="background-color: #333; color: #fff; text-align: center; padding: 10px 0; position: fixed; bottom: 0; width: 100%;">
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+      </footer>
+      <!-- </div> -->
+    <script src="./browser-app.js"></script>
+  </body>
+</html>
